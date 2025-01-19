@@ -1,0 +1,82 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(45deg , #274c77,#6096ba);
+}
+h1 {
+    color: azure;
+    margin: 20px 0 0 558px;
+    text-shadow: 3px 7px 7px rgba(30, 32, 75, 0.58);
+}
+#password-form {
+    width: 50%;
+    height: 550px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #e7ecef;
+    border: 1px solid #274c77;
+    border-radius: 10px;
+    box-shadow: 0 0 25px #274c77;
+}
+
+#password-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: x-large;
+}
+
+#password-form input[type="number"] {
+    width: 80%;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    transition: border -color 0.2s ease;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;;
+}
+#password-form input[type="number"]:focus {
+    border: 1px solid #274c77;
+}
+#password-form input[type="checkbox"] {
+    margin-right: 30px;
+    font-size: x-large;
+    width: 23px;
+    height: 23px;
+}
+
+#password-form button {
+    width: 50%;
+    height: 50px;
+    margin: 40px auto 0 190px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #274c77;
+    color: #e7ecef;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+#password-form button:hover {
+    transform: scale(1.2);
+}
+#password-form button:active {
+    transform: scale(0.8);
+}
+#password {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 145px;
+    align-items: center;
+    padding-top: 10px;
+    border-radius: 20px;
+    padding-left: 20px;
+    background-color: #fff;
+    width: 60%;
+    height: 40px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
